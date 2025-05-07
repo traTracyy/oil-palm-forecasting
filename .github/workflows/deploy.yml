@@ -2,7 +2,7 @@ name: Build and Deploy Docker App
 
 on:
   push:
-    branches: [ main ]  # or your deployment branch
+    branches: [ main ]
 
 jobs:
   build:
@@ -26,7 +26,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: your-dockerhub-username/your-image-name:latest
+        tags: tratracyy/oil-palm-forecasting:latest
 
     - name: Deploy (optional)
       run: |

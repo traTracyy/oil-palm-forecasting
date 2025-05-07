@@ -27,7 +27,3 @@ jobs:
         context: .
         push: true
         tags: tratracyy/oil-palm-forecasting:latest
-
-    - name: Deploy (optional)
-      run: |
-        echo "You can SSH to server and restart Docker container here"
